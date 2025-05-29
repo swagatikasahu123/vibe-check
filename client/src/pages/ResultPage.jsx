@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import io from "socket.io-client";
-const socket = io("http://localhost:5000");
+const socket = io("https://vibe-check-mca6.onrender.com");
 
 const ResultPage = () => {
   const [results, setResults] = useState([]);
